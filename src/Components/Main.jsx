@@ -1,3 +1,5 @@
+import Article from "./Article";
+
 export default function Main() {
   return (
     <>
@@ -8,6 +10,7 @@ export default function Main() {
             src={require("../illustration-article.svg").default}
             alt="illustration article"
           />
+          <Article />
         </section>
       </main>
     </>
