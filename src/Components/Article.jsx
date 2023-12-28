@@ -1,3 +1,5 @@
+import Footer from "./Footer";
+
 export default function Article() {
   return (
     <>
@@ -11,6 +13,7 @@ export default function Article() {
         These languages are the backbone of every website, defining structure,
         content, and presentation.
       </p>
+      <Footer />
     </>
   );
 }
