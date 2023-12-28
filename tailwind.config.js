@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         yellow: "hsl(47, 88%, 63%)",
       },
+      boxShadow: {
+        solid: "4px 4px 0px black",
+      },
     },
   },
   plugins: [],
